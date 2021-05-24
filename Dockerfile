@@ -35,6 +35,4 @@ RUN echo "#################### Installing base packages and PostgreSQL 13 ######
                    which \
                    unzip \
                    zip
-
-ENTRYPOINT ["tail"]
-CMD ["-f","/dev/null"]
+RUN yum -y update

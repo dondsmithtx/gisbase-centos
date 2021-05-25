@@ -14,6 +14,8 @@ RUN echo "#################### Installing base packages and PostgreSQL 13 ######
                    gcc-c++ \
                    geos \
                    geos-devel \
+                   git \
+                   gitflow \
                    json-c \
                    libtiff \
                    libxml2-devel \
